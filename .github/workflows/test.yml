@@ -7,6 +7,6 @@ jobs:
     name: Test
     steps:
       - name: Checkout
-        uses: actions/Checkout@V2.0.0
+        uses: actions/Checkout@v2.0.0
       - name: Verify hello actions works
         uses: ./
